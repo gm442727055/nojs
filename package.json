@@ -1,0 +1,11 @@
+{
+  "name": "xnnrtesk",
+  "version": "1.0.0",
+  "description": "xnnrtesk LLC",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "vevc",
+  "license": "MIT"
+}
