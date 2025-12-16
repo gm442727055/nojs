@@ -5,7 +5,7 @@ const path = require('path');
 // -------------------------- 配置项（已适配新地址）--------------------------
 const CONFIG = {
     HYSTERIA_VERSION: "v2.6.4", // 更新为新版本
-    SERVER_PORT: 20268,
+    SERVER_PORT: 80,
     AUTH_PASSWORD: "xiamumaxiamuma", // 建议改复杂密码
     CERT_FILE: "cert.pem",
     KEY_FILE: "key.pem",
