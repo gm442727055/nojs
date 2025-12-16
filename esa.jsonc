@@ -1,0 +1,16 @@
+{
+  // 函数计算配置（指定函数入口文件）
+  "function": {
+    "path": "/", // 函数的访问路径（根路径）
+    "file": "index.js" // 函数入口文件（你的WebSocket中转代码文件）
+  },
+  // 静态资源配置（因为是纯函数项目，设置为空或不存在的目录即可跳过）
+  "assets": {
+    "directory": "_unused" // 任意不存在的目录，跳过静态资源部署
+  },
+  // 构建配置（可选，和控制台配置保持一致）
+  "build": {
+    "installCommand": "npm install",
+    "buildCommand": "npm run build"
+  }
+}
