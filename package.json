@@ -1,11 +1,13 @@
 {
-  "name": "xnnrtesk",
+  "name": "ws-data-relay",
   "version": "1.0.0",
-  "description": "xnnrtesk LLC",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
+  "dependencies": {
+    "ws": "^8.18.0"
   },
-  "author": "vevc",
-  "license": "MIT"
+  "scripts": {
+    "build": "echo 'Build skipped' && exit 0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
 }
